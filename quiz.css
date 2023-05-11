@@ -1,0 +1,55 @@
+body {
+	margin-top: 220px;
+	margin-bottom: 200px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-family: 'gooddog_plainregular';
+}
+@font-face {
+    font-family: 'gooddog_plainregular';
+    src: url('gooddp__-webfont.woff2') format('woff2'),
+         url('gooddp__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+	font-size: 80px;
+	text-shadow:
+    -3px -3px 0 white,
+    3px -3px 0 white,
+    -3px 3px 0 white,
+    3px 3px 0 white;  
+    color: #cc5200;	             
+}
+h3 {
+    font-size: 40px;
+    text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;  
+    color: #cc5200;	  
+}
+img {
+	height: 300px;
+	width: 300px;
+}
+header {
+	font-size: 50px;
+}
+.wrong-color {
+	text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white; 
+	color: red;
+}
+.correct-color {
+	text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white; 
+	color: limegreen;
+}
